@@ -23,7 +23,6 @@ int main()
             max2 = max(max2, -A[i] + i);
             max3 = max(max3, A[i] - i);
             max4 = max(max4, -A[i] - i);
-
             min1 = min(min1, A[i] + i);
             min2 = min(min2, -A[i] + i);
             min3 = min(min3, A[i] - i);
