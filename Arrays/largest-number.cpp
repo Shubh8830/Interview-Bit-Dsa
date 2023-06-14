@@ -1,7 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
 class myComparision
-
 {
 public:
     bool operator()(const int a, const int b)
