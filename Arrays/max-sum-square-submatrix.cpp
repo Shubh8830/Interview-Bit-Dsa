@@ -21,8 +21,7 @@ int main()
         cin >> B;
         int new_r = R - B + 1;
         vector<vector<int>> stripSum(new_r, vector<int>(C, 0));
-        for (int i = 0; i < C; i++)
-        {
+        for (int i = 0; i < C; i++){
             int sum = 0;
             for (int j = 0; j < B; j++)
             {
