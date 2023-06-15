@@ -34,7 +34,6 @@ int main()
                 stripSum[j][i] = sum;
             }
         }
-
         int max_sum = INT_MIN;
         for (int i = 0; i < new_r; i++)
         {
@@ -50,7 +49,6 @@ int main()
                 max_sum = max(max_sum, sum);
             }
         }
-
         cout << max_sum;
         cout << endl;
     }
