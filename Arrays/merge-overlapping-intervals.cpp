@@ -6,7 +6,8 @@ struct Interval
     int end;
     Interval() : start(0), end(0) {}
     Interval(int s, int e) : start(s), end(e) {}
-};class myCompare
+};
+class myCompare
 {
 public:
     bool operator()(Interval i1, Interval i2)
