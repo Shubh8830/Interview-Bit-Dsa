@@ -50,7 +50,9 @@ int main()
                 sum += (stripSum[i][j + B - 1] - stripSum[i][j - 1]);
                 max_sum = max(max_sum, sum);
 
-                
+
+
+
             }
         }
         cout << max_sum;
