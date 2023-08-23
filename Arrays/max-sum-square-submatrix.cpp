@@ -35,10 +35,6 @@ int main()
                 sum += (A[j + B - 1][i] - A[j - 1][i]);
                 stripSum[j][i] = sum;
             }
-
-
-
-
         }
         
         
