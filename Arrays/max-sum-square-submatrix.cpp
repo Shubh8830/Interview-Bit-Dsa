@@ -36,6 +36,9 @@ int main()
                 stripSum[j][i] = sum;
             }
 
+
+
+
         }
         
         
