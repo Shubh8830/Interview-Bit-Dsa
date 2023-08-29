@@ -12,6 +12,7 @@ int main()
 
 
 
+
         int n;
         cin >> n;
         vector<vector<int>> A(n, vector<int>(n));
