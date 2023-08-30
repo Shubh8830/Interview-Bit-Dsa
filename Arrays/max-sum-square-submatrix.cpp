@@ -36,7 +36,7 @@ int main()
                 stripSum[j][i] = sum;
             }
         }
-    
+
         
         int max_sum = INT_MIN;
         for (int i = 0; i < new_r; i++)
