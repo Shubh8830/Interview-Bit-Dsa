@@ -27,8 +27,6 @@ int main()
         {
 
 
-
-
             for (int j = 0; j < n; j++)
             {
                 ans[i + j].push_back(A[i][j]);
