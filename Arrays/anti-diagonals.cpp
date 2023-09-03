@@ -12,7 +12,9 @@ int main()
 
 
 
-        int n;
+        int n;'
+        
+        '
         cin >> n;
         vector<vector<int>> A(n, vector<int>(n));
         for (int i = 0; i < n; i++)
