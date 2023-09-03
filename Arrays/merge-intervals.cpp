@@ -25,6 +25,8 @@ vector<Interval> Solution::insert(vector<Interval> &intervals, Interval newInter
     int i = 0, left, right, n = intervals.size(), flag = 0;
     if (n > 0)
     {
+
+    
         if (newInterval.end < intervals[0].start)
         {
             ans.push_back(newInterval);
