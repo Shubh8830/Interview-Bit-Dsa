@@ -70,7 +70,8 @@ vector<Interval> Solution::insert(vector<Interval> &intervals, Interval newInter
     return ans;
 }
 
-int main()
+in
+t main()
 {
     int t;
     cin >> t;
@@ -94,7 +95,7 @@ int main()
         cout << "\nMerged Intervals are: \n";
         for (auto item : ans)
         {
-        
+
             cout << item.start << " " << item.end << "\n";
         }
         cout << "\n";
