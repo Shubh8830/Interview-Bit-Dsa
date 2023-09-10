@@ -18,7 +18,6 @@ public:
 vector<Interval> Solution::insert(vector<Interval> &intervals, Interval newInterval)
 {
 
-
     // Do not write main() function.
     // Do not read input, instead use the arguments to the function.
     // Do not print the output, instead return values as specified
@@ -28,7 +27,6 @@ vector<Interval> Solution::insert(vector<Interval> &intervals, Interval newInter
     if (n > 0)
     {
 
-    
         if (newInterval.end < intervals[0].start)
         {
             ans.push_back(newInterval);
@@ -96,9 +94,11 @@ int main()
         cout << "\nMerged Intervals are: \n";
         for (auto item : ans)
         {
+        
             cout << item.start << " " << item.end << "\n";
         }
         cout << "\n";
     }
     return 0;
 }
+
