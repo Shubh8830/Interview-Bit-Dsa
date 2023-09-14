@@ -73,6 +73,7 @@ vector<Interval> Solution::insert(vector<Interval> &intervals, Interval newInter
 in
 t main()
 {
+
     int t;
     cin >> t;
     while (t--)
