@@ -70,10 +70,9 @@ vector<Interval> Solution::insert(vector<Interval> &intervals, Interval newInter
     return ans;
 }
 
-in
-t main()
+int main()
 {
-    
+
 
     int t;
     cin >> t;
