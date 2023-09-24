@@ -25,6 +25,8 @@ public:
     vector<Interval> merge(vector<Interval> &A);
 };
 
+
+
 vector<Interval> Solution::insert(vector<Interval> &intervals, Interval newInterval)
 {
     // Do not write main() function.
